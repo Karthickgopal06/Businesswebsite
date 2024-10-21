@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.container
+{
+    background-image: url(1333.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+nav img
+{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+nav li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 20px;
+    color: white;
+    
+}
+nav .first
+{
+    border: 2px solid white;
+    padding: 5px 15px;
+}
+nav li:hover
+{
+    border: 2px solid white;
+}
+nav ul
+{
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.main{
+    text-align: center;
+    margin-top: 180px;
+}
+.main h1{
+    color: white;
+    font-size: 50px;
+    word-spacing: 9px;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+
+}
+.main button
+{
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+.main .two
+{
+    background-color: rgb(255, 153, 0);
+}
+.main button:hover
+{
+    background-color: rgb(255, 153, 0);
+    transition: all 0.3s ease-in;
+}
